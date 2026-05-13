@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>kerala tourism</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <link rel="stylesheet" href="/day1/task style.css">
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        html, body {
+          height: 100%;
+          width: 100%;
+          overflow: hidden;
+        }
+        
+        .video-bg {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          overflow: hidden;
+        }
+        
+        .video-bg iframe {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+          pointer-events: none;
+          border: none;
+        }
+        
+        .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.3);
+          z-index: 1;
+        }
+        
+        .content {
+          position: relative;
+          z-index: 2;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          color: white;
+          text-align: center;
+        }
+      </style>
+    </head>
+    <body>
+   
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="#">Kerala Tourism</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/districts.html">Districts</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact us.html">Contact Us</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="video-bg">
+
+    <iframe
+      src="https://www.youtube.com/embed/3qPGPJzscro?autoplay=1&mute=1&loop=1&playlist=3qPGPJzscro&controls=0&showinfo=0&modestbranding=1"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+
+    <div class="overlay"></div>
+
+    <div class="content">
+      <h1>Welcome to Kerala</h1>
+      <p>God's Own Country</p>
+    </div>
+
+  </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  
+
+  </body>
+</html>
